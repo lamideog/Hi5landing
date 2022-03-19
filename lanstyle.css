@@ -14,9 +14,9 @@ div.burger{
 @media only screen and (max-width: 768px){
     div.burger{
         min-height: 350px;
-        font-size: 50px;
+        font-size: 40px;
         padding: 50px;
-        padding-top: 190px;
+        padding-top: 100px;
         background-size: 800px;
     }
 }
@@ -76,6 +76,11 @@ span{
 .sandf{
     min-height: 600px;
     border-radius: 20px;
+}
+@media only screen and (max-width: 768px){
+    .sandf{
+        min-height: 400px;
+    }
 }
 .small{
     color: rgb(88, 88, 86);
